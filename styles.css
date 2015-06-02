@@ -1,0 +1,20 @@
+body{
+  background-color: white;
+  transition: all 1s ease;
+}
+
+body:hover{
+  -webkit-animation: cycle-box 1s infinite;
+}
+
+@-webkit-keyframes cycle-box {
+  0% {
+    background-color: cyan;
+  }
+  50% {
+    background-color: magenta;
+  }
+  100% {
+   color: yellow;
+  }
+}
